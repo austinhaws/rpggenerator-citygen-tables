@@ -1,0 +1,23 @@
+{
+  "name": "@austinhaws/rpggenerator-citygen-tables",
+  "version": "1.0.0",
+  "description": "Randomizing tables for city generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinhaws/rpggenerator-citygen-tables.git"
+  },
+  "keywords": [],
+  "author": "Austin Haws <austinhaws@gmail.com> (https://github.com/austinhaws/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinhaws/rpggenerator-citygen-tables/issues"
+  },
+  "homepage": "https://github.com/austinhaws/rpggenerator-citygen-tables#readme",
+  "dependencies": {
+    "knuth-shuffle": "^1.0.8"
+  }
+}
