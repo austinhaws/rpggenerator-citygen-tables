@@ -4,6 +4,8 @@ const getTableKeyFromRangeValue = require('../src/getTableKeyFromRangeValue.js')
 const populationHasWallsTable = require('../src/tables/populationHasWallsTable.js');
 const populationMilitaryTable = require('../src/tables/populationMilitaryTable.js');
 const populationNumWallsTable = require('../src/tables/populationNumWallsTable.js');
+const populationAcresTable = require('../src/tables/populationAcresTable.js');
+const populationNumStructuresTable = require('../src/tables/populationNumStructuresTable.js');
 
 test('exports', () => {
     const knownExports = {
@@ -11,6 +13,8 @@ test('exports', () => {
         populationHasWallsTable,
         populationMilitaryTable,
         populationNumWallsTable,
+        populationAcresTable,
+        populationNumStructuresTable,
         populationType,
     };
 
