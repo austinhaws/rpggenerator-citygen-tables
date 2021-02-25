@@ -6,15 +6,27 @@ const populationMilitaryTable = require('../src/tables/populationMilitaryTable.j
 const populationNumWallsTable = require('../src/tables/populationNumWallsTable.js');
 const populationAcresTable = require('../src/tables/populationAcresTable.js');
 const populationNumStructuresTable = require('../src/tables/populationNumStructuresTable.js');
+const kingIncomeTable = require("../src/tables/kingIncomeTable");
+const magicResourcesTable = require("../src/tables/magicResourcesTable");
+const populationSizeTable = require("../src/tables/populationSizeTable");
+const populationTypeTable = require("../src/tables/populationTypeTable");
+const populationWealthTable = require("../src/tables/populationWealthTable");
 
 test('exports', () => {
     const knownExports = {
         getTableKeyFromRangeValue,
+
+        kingIncomeTable,
+        magicResourcesTable,
+        populationAcresTable,
         populationHasWallsTable,
         populationMilitaryTable,
-        populationNumWallsTable,
-        populationAcresTable,
         populationNumStructuresTable,
+        populationNumWallsTable,
+        populationSizeTable,
+        populationTypeTable,
+        populationWealthTable,
+
         populationType,
     };
 
