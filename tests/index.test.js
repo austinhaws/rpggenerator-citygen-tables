@@ -11,6 +11,7 @@ const magicResourcesTable = require("../src/tables/magicResourcesTable");
 const populationSizeTable = require("../src/tables/populationSizeTable");
 const populationTypeTable = require("../src/tables/populationTypeTable");
 const populationWealthTable = require("../src/tables/populationWealthTable");
+const populationTypeCompare = require("../src/enum/populationTypeCompare");
 
 test('exports', () => {
     const knownExports = {
@@ -28,6 +29,7 @@ test('exports', () => {
         populationWealthTable,
 
         populationType,
+        populationTypeCompare,
     };
 
     expect(Object.keys(moduleExports)).toStrictEqual(Object.keys(knownExports));

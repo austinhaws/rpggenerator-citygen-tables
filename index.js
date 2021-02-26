@@ -10,6 +10,7 @@ const magicResourcesTable = require("./src/tables/magicResourcesTable");
 const populationSizeTable = require("./src/tables/populationSizeTable");
 const populationTypeTable = require("./src/tables/populationTypeTable");
 const populationWealthTable = require("./src/tables/populationWealthTable");
+const populationTypeCompare = require('./src/enum/populationTypeCompare');
 
 exports.getTableKeyFromRangeValue = getTableKeyFromRangeValue;
 
@@ -25,3 +26,4 @@ exports.populationTypeTable = populationTypeTable;
 exports.populationWealthTable = populationWealthTable;
 
 exports.populationType = populationType;
+exports.populationTypeCompare = populationTypeCompare;
