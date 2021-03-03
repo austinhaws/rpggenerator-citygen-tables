@@ -48,6 +48,7 @@ const powerCenterTypeTable = require('./src/tables/powerCenterAlignmentTable');
 const professionRatioTable = require('./src/tables/professionRatioTable');
 const professionTable = require('./src/tables/professionTable');
 const racePercentsTable = require('./src/tables/racePercentsTable');
+const randomWardTable = require('./src/tables/randomWardTable');
 const racesRandomTable = require('./src/tables/racesRandomTable');
 const syllablesTable = require('./src/tables/syllablesTable');
 const wardAcresUsedTable = require('./src/tables/wardAcresUsedTable');
@@ -96,6 +97,7 @@ exports.professionRatioTable = professionRatioTable;
 exports.professionTable = professionTable;
 exports.racePercentsTable = racePercentsTable;
 exports.racesRandomTable = racesRandomTable;
+exports.randomWardTable = randomWardTable;
 exports.syllablesTable = syllablesTable;
 exports.wardAcresUsedTable = wardAcresUsedTable;
 

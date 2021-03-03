@@ -53,6 +53,7 @@ const integration = require('../../src/enum/integration.js');
 const npcClass = require('../../src/enum/npcClass.js');
 const isValueNotValid = require('./methods/invalidTableKeyValues/isValueNotValid.js');
 const race = require('../../src/enum/race.js');
+const randomWardTable = require('../../src/tables/randomWardTable.js');
 
 const valueIsNumber = ({ allowNull = false } = {}) => ({ value }) => {
     const num = +value;
@@ -360,6 +361,11 @@ const tables = [
         name: 'wardAcresUsedTable',
         table: wardAcresUsedTable,
         tests: [createMultiLayerTest([valueIsInEnum(populationType), valueIsMinMax()])],
+    },
+    {
+        name: 'randomWardTable',
+        table: randomWardTable,
+        tests: [createMultiLayerTest([valueIsNumber(), valueIsInEnum(ward)])],
     },
 ];
 
