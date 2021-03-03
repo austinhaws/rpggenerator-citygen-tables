@@ -1,4 +1,10 @@
 const moduleExports = require('../index.js');
+const building = require("../src/enum/populationType");
+const integration = require("../src/enum/populationType");
+const npcClass = require("../src/enum/populationType");
+const profession = require("../src/enum/populationType");
+const race = require("../src/enum/populationType");
+const ward = require("../src/enum/populationType");
 const populationType = require('../src/enum/populationType.js');
 const getTableKeyFromRangeValue = require('../src/getTableKeyFromRangeValue.js');
 const buildingsByWardTable = require('../src/tables/buildingsByWardTable');
@@ -96,8 +102,14 @@ test('exports', () => {
         syllablesTable,
         wardAcresUsedTable,
 
+        building,
+        integration,
+        npcClass,
         populationType,
         populationTypeCompare,
+        profession,
+        race,
+        ward,
     };
 
     expect(Object.keys(moduleExports)).toStrictEqual(Object.keys(knownExports));

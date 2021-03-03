@@ -1,3 +1,9 @@
+const building = require("./src/enum/populationType");
+const integration = require("./src/enum/populationType");
+const npcClass = require("./src/enum/populationType");
+const profession = require("./src/enum/populationType");
+const race = require("./src/enum/populationType");
+const ward = require("./src/enum/populationType");
 const populationType = require("./src/enum/populationType");
 const getTableKeyFromRangeValue = require("./src/getTableKeyFromRangeValue");
 const populationTypeCompare = require('./src/methods/populationTypeCompare');
@@ -93,5 +99,11 @@ exports.racesRandomTable = racesRandomTable;
 exports.syllablesTable = syllablesTable;
 exports.wardAcresUsedTable = wardAcresUsedTable;
 
+exports.building = building;
+exports.integration = integration;
+exports.npcClass = npcClass;
 exports.populationType = populationType;
 exports.populationTypeCompare = populationTypeCompare;
+exports.profession = profession;
+exports.race = race;
+exports.ward = ward;
