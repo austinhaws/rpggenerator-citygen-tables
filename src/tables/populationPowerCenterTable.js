@@ -1,0 +1,12 @@
+const populationType = require('../enum/populationType');
+
+module.exports = {
+    [populationType.THORP]: { min: 0, max: 1 },
+    [populationType.HAMLET]: { min: 0, max: 2 },
+    [populationType.VILLAGE]: { min: 1, max: 3 },
+    [populationType.SMALL_TOWN]: { min: 1, max: 4 },
+    [populationType.LARGE_TOWN]: { min: 2, max: 5 },
+    [populationType.SMALL_CITY]: { min: 3, max: 6 },
+    [populationType.LARGE_CITY]: { min: 4, max: 7 },
+    [populationType.METROPOLIS]: { min: 5, max: 10 },
+};

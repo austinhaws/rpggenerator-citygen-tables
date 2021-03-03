@@ -1,12 +1,12 @@
-const { THORP, HAMLET, VILLAGE, SMALL_TOWN, LARGE_TOWN, SMALL_CITY, LARGE_CITY, METROPOLIS } = require('../enum/populationType');
+const populationType = require('../../src/enum/populationType');
 
 module.exports = {
-    [THORP]: 0.003,
-    [HAMLET]: 0.002,
-    [VILLAGE]: 0.002,
-    [SMALL_TOWN]: 0.01,
-    [LARGE_TOWN]: 0.01,
-    [SMALL_CITY]: 0.005,
-    [LARGE_CITY]: 0.0025,
-    [METROPOLIS]: 0.0005,
+    [populationType.THORP]: 0.003,
+    [populationType.HAMLET]: 0.002,
+    [populationType.VILLAGE]: 0.002,
+    [populationType.SMALL_TOWN]: 0.01,
+    [populationType.LARGE_TOWN]: 0.01,
+    [populationType.SMALL_CITY]: 0.005,
+    [populationType.LARGE_CITY]: 0.0025,
+    [populationType.METROPOLIS]: 0.0005,
 };

@@ -1,4 +1,4 @@
-const populationTypeCompare = require('../../src/enum/populationTypeCompare');
+const populationTypeCompare = require('../../src/methods/populationTypeCompare');
 const { THORP, HAMLET, VILLAGE, SMALL_TOWN, LARGE_TOWN, SMALL_CITY, LARGE_CITY, METROPOLIS } = require('../../src/enum/populationType');
 
 test('getTableKeyFromRangeValue', () => {

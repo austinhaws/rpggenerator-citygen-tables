@@ -19,5 +19,8 @@
   "homepage": "https://github.com/austinhaws/rpggenerator-citygen-tables#readme",
   "dependencies": {
     "knuth-shuffle": "^1.0.8"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21"
   }
 }

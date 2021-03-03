@@ -1,4 +1,4 @@
-const populationType = require("./populationType");
+const populationType = require("../enum/populationType");
 
 module.exports = (a, b) => {
     const keys = Object.keys(populationType);
