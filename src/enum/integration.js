@@ -1,6 +1,6 @@
 module.exports = {
-    ISOLATED: 'Isolated',
-    MIXED: 'Mixed',
-    INTEGRATED: 'Integrated',
-    CUSTOM: 'Custom',
+    ISOLATED: 'ISOLATED',
+    MIXED: 'MIXED',
+    INTEGRATED: 'INTEGRATED',
+    CUSTOM: 'CUSTOM',
 };
