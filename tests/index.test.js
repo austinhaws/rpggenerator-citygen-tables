@@ -1,5 +1,6 @@
 const moduleExports = require('../index.js');
 const building = require("../src/enum/building");
+const buildingQuality = require("../src/enum/buildingQuality");
 const integration = require("../src/enum/integration");
 const npcClass = require("../src/enum/npcClass");
 const profession = require("../src/enum/profession");
@@ -105,6 +106,7 @@ test('exports', () => {
         wardAcresUsedTable,
 
         building,
+        buildingQuality,
         integration,
         npcClass,
         populationType,

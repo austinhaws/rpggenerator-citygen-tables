@@ -44,7 +44,6 @@ const racePercentsTable = require('../../src/tables/racePercentsTable');
 const racesRandomTable = require('../../src/tables/racesRandomTable');
 const syllablesTable = require('../../src/tables/syllablesTable');
 const wardAcresUsedTable = require('../../src/tables/wardAcresUsedTable');
-const invalidTableKeyValues = require('./methods/invalidTableKeyValues/isTableKeyValuesValid.js');
 const ward = require('../../src/enum/ward');
 const building = require('../../src/enum/building');
 const populationType = require('../../src/enum/populationType.js');
