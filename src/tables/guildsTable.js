@@ -1,71 +1,72 @@
 const profession = require('../../src/enum/profession');
+const guild = require('../../src/enum/guild');
 
 module.exports = {
-    'Architects & Engineers': [
+    [guild.ARCHITECTS_ENGINEERS]: [
         profession.ARCHITECTS,
         profession.ENGINEERS,
     ],
-    'Armorers & Locksmiths': [
+    [guild.ARMORERS_LOCKSMITHS]: [
         profession.ARMORERS,
         profession.LOCKSMITHS,
     ],
-    'Artists': [
+    [guild.ARTISTS]: [
         profession.ARTISTS,
         profession.PAINTERS,
         profession.SATIRISTS,
         profession.SCULPTORS,
         profession.WRITERS,
     ],
-    'Bakers': [
+    [guild.BAKERS]: [
         profession.BAKERS,
         profession.PASTRY_MAKERS,
     ],
-    'Bookbinders & Paper Makers': [
+    [guild.BOOKBINDERS_PAPER_MAKERS]: [
         profession.BOOKBINDERS,
         profession.BOOKSELLERS,
         profession.PAPER_PARCHMENT_MAKERS,
     ],
-    'Bowyers & Fletchers': [
+    [guild.BOWYERS_FLETCHERS]: [
         profession.BOWYER_FLETCHERS,
     ],
-    'Brewers, Distillers, & Vintners': [
+    [guild.BREWERS_DISTILLERS_VINTNERS]: [
         profession.BREWERS,
         profession.DISTILLERS,
         profession.VINTNER,
     ],
-    'Brothel Keepers': [
+    [guild.BROTHEL_KEEPERS]: [
         profession.BATHERS,
         profession.BROTHEL_KEEPERS,
     ],
-    'Builders': [
+    [guild.BUILDERS]: [
         profession.CARPENTERS,
         profession.PLASTERERS,
         profession.ROOFERS,
     ],
-    'Butchers': [
+    [guild.BUTCHERS]: [
         profession.BUTCHERS,
     ],
-    'Casters': [
+    [guild.CASTERS]: [
         profession.BELL_MAKERS,
         profession.ENGRAVERS,
         profession.GOLDSMITHS,
         profession.SILVERSMITHS,
     ],
-    'Chandlers': [
+    [guild.CHANDLERS]: [
         profession.CHANDLERS,
         profession.SOAP_MAKERS,
     ],
-    'Clay & Stone Workers': [
+    [guild.CLAY_STONE_WORKERS]: [
         profession.BRICKLAYERS,
         profession.MASONS,
         profession.POTTERS,
         profession.TILERS,
     ],
-    'Clerks & Scribes': [
+    [guild.CLERKS_SCRIBES]: [
         profession.COPYISTS,
         profession.ILLUMINATORS,
     ],
-    'Clothing & Accessories': [
+    [guild.CLOTHING_ACCESSORIES]: [
         profession.GIRDLERS,
         profession.GLOVE_MAKERS,
         profession.MERCERS,
@@ -74,16 +75,16 @@ module.exports = {
         profession.TAILORS,
         profession.VESTMENT_MAKERS,
     ],
-    'Cobblers': [
+    [guild.COBBLERS]: [
         profession.COBBLERS,
     ],
-    'Coopers': [
+    [guild.COOPERS]: [
         profession.COOPERS,
     ],
-    'Cordwainers': [
+    [guild.CORDWAINERS]: [
         profession.LEATHER_WORKERS,
     ],
-    'Dyers & Weavers': [
+    [guild.DYERS_WEAVERS]: [
         profession.BLEACHERS,
         profession.DRAPERS,
         profession.DYE_MAKERS,
@@ -91,69 +92,69 @@ module.exports = {
         profession.RUG_MAKERS,
         profession.WEAVERS,
     ],
-    'Financial Transactions': [
+    [guild.FINANCIAL_TRANSACTIONS]: [
         profession.BANKERS,
         profession.MONEYCHANGERS,
         profession.PAWNBROKER,
         profession.TAX_COLLECTORS,
     ],
-    'Fishmongers': [
+    [guild.FISHMONGERS]: [
         profession.FISHERS,
         profession.FISHMONGERS,
     ],
-    'Forgers & Smiths': [
+    [guild.FORGERS_SMITHS]: [
         profession.BLACKSMITHS,
         profession.BUCKLE_MAKERS,
         profession.CUTLERS,
         profession.SCABBARD_MAKERS,
         profession.WEAPON_SMITHS,
     ],
-    'Furriers': [
+    [guild.FURRIERS]: [
         profession.FURRIERS,
     ],
-    'Glass Workers': [
+    [guild.GLASS_WORKERS]: [
         profession.GLASS_MAKERS,
         profession.GLAZIERS,
     ],
-    'Harness Makers & Saddlers': [
+    [guild.HARNESS_MAKERS_SADDLERS]: [
         profession.HARNESS_MAKERS,
         profession.SADDLERS_SPURRIERS,
     ],
-    'Hostliers': [
+    [guild.HOSTLIERS]: [
         profession.INN_KEEPERS,
         profession.RESTAURATEURS,
         profession.TAVERN_KEEPERS,
     ],
-    'Jewelers': [
+    [guild.JEWELERS]: [
         profession.GOLDSMITHS,
         profession.JEWELERS,
         profession.SILVERSMITHS,
     ],
-    'Launderers': [
+    [guild.LAUNDERERS]: [
         profession.LAUNDERERS,
     ],
-    'Magic': [
+    [guild.MAGIC]: [
         profession.ALCHEMISTS,
         profession.ASTROLOGERS,
         profession.MAGIC_MERCHANTS,
         profession.POTION_MAKERS,
     ],
-    'Map Makers & Surveyors': [
+    [guild.MAP_MAKERS_SURVEYORS]: [
         profession.CARTOGRAPHERS,
     ],
-    'Mariners': [
+    [guild.MARINERS]: [
         profession.NAVIGATORS_PATHFINDERS,
         profession.NAVEL_OUTFITTERS,
         profession.ROPE_MAKERS,
     ],
-    'Medical': [
+    [guild.MEDICAL]: [
         profession.BARBERS,
         profession.DENTISTS,
         profession.DOCTORS_UNLICENSED,
         profession.HERBALISTS,
         profession.MIDWIVES,
     ],
-    'Merchants': [
+    [guild.MERCHANTS]: [
         profession.BEER_MERCHANTS,
         profession.BOOKSELLERS,
         profession.CLOTHIERS_USED,
@@ -175,7 +176,7 @@ module.exports = {
         profession.WOOD_SELLERS,
         profession.WOOL_MERCHANTS,
     ],
-    'Music & Performers': [
+    [guild.MUSIC_PERFORMERS]: [
         profession.ACROBATS_TUMBLERS,
         profession.INSTRUMENT_MAKERS,
         profession.JESTERS,
@@ -183,7 +184,7 @@ module.exports = {
         profession.MINSTRELS,
         profession.STORYTELLERS,
     ],
-    'Professional Guilds': [
+    [guild.PROFESSIONAL_GUILDS]: [
         profession.ADVOCATES_LAWYERS,
         profession.DOCTORS_LICENSED,
         profession.JUDGES,
@@ -191,39 +192,39 @@ module.exports = {
         profession.PROFESSORS,
         profession.TEACHERS,
     ],
-    'Scholastic': [
+    [guild.SCHOLASTIC]: [
         profession.HISTORIANS,
         profession.PROFESSORS,
         profession.SAGE_SCHOLAR,
     ],
-    'Shipwrights': [
+    [guild.SHIPWRIGHTS]: [
         profession.SHIP_MAKERS,
     ],
-    'Skinners & Tanners': [
+    [guild.SKINNERS_TANNERS]: [
         profession.LEATHER_WORKERS,
         profession.SKINNERS,
         profession.TANNERS,
         profession.TAXIDERMISTS,
     ],
-    'Stable Keepers': [
+    [guild.STABLE_KEEPERS]: [
         profession.GROOMS,
     ],
-    'Tinkerers': [
+    [guild.TINKERERS]: [
         profession.CLOCK_MAKERS,
         profession.INVENTORS,
         profession.TOY_MAKERS,
     ],
-    'Water Men': [
+    [guild.WATER_MEN]: [
         profession.WATER_CARRIERS,
     ],
-    'Wheel Wrights': [
+    [guild.WHEEL_WRIGHTS]: [
         profession.WHEELWRIGHTS,
     ],
-    'Wicker Workers': [
+    [guild.WICKER_WORKERS]: [
         profession.BASKET_MAKERS,
         profession.FURNITURE_MAKERS,
     ],
-    'Wood Workers': [
+    [guild.WOOD_WORKERS]: [
         profession.FURNITURE_MAKERS,
         profession.WOODCARVERS,
     ],
