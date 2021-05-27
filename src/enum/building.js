@@ -1,7 +1,7 @@
 module.exports = {
     ADMIN: 'ADMIN',
     ASYLUM: 'ASYLUM',
-    BATH_HOUSE: 'BATH HOUSE',
+    BATH_HOUSE: 'BATH_HOUSE',
     BARRACK: 'BARRACK',
     BATH: 'BATH',
     CEMETERY: 'CEMETERY',
@@ -11,7 +11,7 @@ module.exports = {
     FOUNTAIN: 'FOUNTAIN',
     GARDEN: 'GARDEN',
     GRANARY: 'GRANARY',
-    GUILD_HALL: 'GUILD HOUSE',
+    GUILD_HALL: 'GUILD_HOUSE',
     HOSPITAL: 'HOSPITAL',
     HOUSE: 'HOUSE',
     INFIRMARY: 'INFIRMARY',
