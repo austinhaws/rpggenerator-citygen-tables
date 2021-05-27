@@ -1,5 +1,6 @@
 const building = require("./src/enum/building");
 const buildingQuality = require("./src/enum/buildingQuality");
+const guild = require("./src/enum/guild");
 const integration = require("./src/enum/integration");
 const npcClass = require("./src/enum/npcClass");
 const profession = require("./src/enum/profession");
@@ -104,6 +105,7 @@ exports.wardAcresUsedTable = wardAcresUsedTable;
 
 exports.building = building;
 exports.buildingQuality = buildingQuality;
+exports.guild = guild;
 exports.integration = integration;
 exports.npcClass = npcClass;
 exports.populationType = populationType;
